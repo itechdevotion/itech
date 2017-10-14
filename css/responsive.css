@@ -1,101 +1,144 @@
-@media (max-width:980px) {
-	.respo-tagline { margin:150px 0 0}
-	
-}
-	
-	
-	@media (max-width: 980px) {
-		.respo-tagline{ font-size:5vh}
-		.respo-tagline { margin:100px 0 0}
-		.contact_us_fold {
-    padding: 13px;
-    font-size: 16px;
-    width: 173px;
-		margin: 20px auto;}
-		#mySidenav ul {display:none}
-		.popup{ width:100%}
-	
-	.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    transition: 0.5s;
-    padding-top: 60px;
-    text-align:center;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+@media (max-width: 980px) {
+    .respo-tagline {
+        margin: 150px 0 0
+    }
 
 }
 
-.sidenav a:hover{
-    color: #f1f1f1;
-}
+@media (max-width: 980px) {
+    .respo-tagline {
+        font-size: 5vh
+    }
 
-.sidenav .closebtn {
-      position: absolute;
-    top: 0;
-    right: 12px;
-    font-size: 48px;
-    margin-left: 50px;
-    background: #111;
-    z-index: 999;
-    color: #fff;
-}
+    .respo-tagline {
+        margin: 100px 0 0
+    }
 
+    .contact_us_fold {
+        padding: 13px;
+        font-size: 16px;
+        width: 173px;
+        margin: 20px auto;
+    }
 
-.humbergurger-icon,.closebtn{
-	
-	display:block
-}
-.video-item{
-	display:none
-	}
-	.wpb_text_column{
-		
-          background:url(../images/process/mobile-bg.jpg) 50% 50% / cover no-repeat ; 
-		  background-size:cover;
-		  display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	.how-we-do .text-right,.how-we-do .text-left, .how-we-do .col-md-4{ text-align:center!important}
-	.our-process{overflow:hidden}
-	#mySidenav li a {
-    color: #e0e0e0;
-    padding: 10px 20px;
-    font-size: 21px;
-    margin: 10px 0;
-}
-.service_box{border-bottom:1px solid #fff}
-.service_box .fa{ top:30px; right:20px}
-.contact_pop,.our-process{ padding:0}
-.contact_pop .close{ position:fixed; top:100px;    width: 50px;
-    height: 50px;
-    font-size: 16px;}
-.contact_pop h3 {
-    font-size: 23px;
-    margin: 32px 0;
-}
-p,.black-strip h3 {
-    font-size: 15px!important;
-    line-height: 1.5;
-}
+    #mySidenav ul {
+        display: none
+    }
+
+    .popup {
+        width: 100%
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 12px;
+        font-size: 48px;
+        margin-left: 50px;
+        background: #111;
+        z-index: 999;
+        color: #fff;
+    }
+
+    .humbergurger-icon, .closebtn {
+
+        display: block
+    }
+
+    .video-item {
+        display: none
+    }
+
+    .wpb_text_column {
+
+        background: url(../images/process/mobile-bg.jpg) 50% 50% / cover no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .how-we-do .text-right, .how-we-do .text-left, .how-we-do .col-md-4 {
+        text-align: center !important
+    }
+
+    .our-process {
+        overflow: hidden
+    }
+
+    #mySidenav li a {
+        color: #e0e0e0;
+        padding: 10px 20px;
+        font-size: 21px;
+        margin: 10px 0;
+    }
+
+    .service_box {
+        border-bottom: 1px solid #fff
+    }
+
+    .service_box .fa {
+        top: 30px;
+        right: 20px
+    }
+
+    .contact_pop, .our-process {
+        padding: 0
+    }
+
+    .contact_pop .close {
+        position: fixed;
+        top: 100px;
+        width: 50px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .contact_pop h3 {
+        font-size: 23px;
+        margin: 32px 0;
+    }
+
+    p, .black-strip h3 {
+        font-size: 15px !important;
+        line-height: 1.5;
+    }
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-	
-	
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+
 }
