@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="index, follow"/>
+    <meta name="Distribution" content="Global">
+    <meta name="Revisit-after" content="1 Days">
+    <meta property="og:title" content="Itech Devotion"/>
+    <meta property="og:type" content="Web Design Company"/>
+    <meta property="og:url" content="https://www.itechdevotion.com/"/>
+    <meta property="og:image" content="https://www.itechdevotion.com/images/logo.png"/>
+    <meta property="og:site_name" content="itechdevotion"/>
+    <meta property="og:description"
+          content="Professional Website Design Company Affordable Custom BEST website design"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="itechdevotion"/>
+    <meta name="twitter:description"
+          content="Professional Website Design Company Affordable Custom BEST website design"/>
+    <meta name="twitter:image" content="https://www.itechdevotion.com/images/logo.png"/>
+    <meta name="description"
+          CONTENT="itechdevotion is the company which provide all the services under one roof.  Our team of website, graphics, UI&UX designers works for customer satisfaction."/>
+    <meta name="keywords"
+          CONTENT="web design, website design, web development, Logo Design, Brochures Design, Corporate Identity, WordPress Themes, Blog Website Design Newsletter Design, E-Catalog Design"/>
+    <link href=
+                  "https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,800"
+          rel="stylesheet">
+    <link href="css/animation.css" rel="stylesheet">
+    <script src="js/animation.js">
+    </script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <title>Creative agency </title>
+</head>
+<style>
+    #content {
+        margin-top: 100px
+    }
+
+    h2 {
+        font-size: 5vh;
+        font-weight: 300;
+        margin: 50px 0
+    }
+
+    h3 {
+        margin: 30px;
+        font-weight: 400;
+    }
+
+    svg {
+        width: 100px;
+        margin: 30px 0
+    }
+</style>
+<body>
+
+<header id="header">
+
+    <div class="container">
+        <a href="index.html" id="logo"><img alt="Itech" src="images/logo.png" title=
+                "itech"></a>
+        <div class="sidenav pull-right" id="mySidenav">
+            <a class="closebtn" href="javascript:void(0)" onclick=
+                    "closeNav()">&times;</a>
+            <ul>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+
+                <li>
+                    <a class="contact_us" data-aos="fade-up" href=
+                            "contact.html"><i aria-hidden="true" class=
+                            "fa fa-handshake-o"></i> Contact Us</a>
+                </li>
+            </ul>
+            <span class="humbergurger-icon" onclick=
+                    "openNav()">&#9776;</span>
+        </div>
+    </div>
+</header>
+<div id="content" class="clear">
+    <div class="container text-center">
+        <h2>Our philosophy</h2>
+        <p>At itech, we have a good balance between experience and curiosity, knowledge and creativity. Our office
+            is home to one of Sweden’s most impressive private collections of contemporary Swedish art, but equally
+            important is probably the Friday drink, lunch, yoga and the open atmosphere. It is fun to go to work!</p>
+        <p>We believe in teamwork, cooperation, frequent dialogue and relaxed atmosphere. We challenge and support each
+            other. We think that personality and attitude is as important as competences when building an unbeatable
+            team.</p>
+        <a
+                href="mailto:info@itechdevotion.com?Subject=Hello%20again" target="_top">Email your query at :
+            info@itechdevotion.com</a>
+        <h2>Love to hear from you </h2>
+        <p>New project, assignment or career? We are always interested in new clients and talented people who want to
+            work with us. Call us or send us an e-mail and we will contact you as soon as we can.</p>
+    </div>
+</div>
+
+<div align="center" class="socialbtns">
+    <ul>
+        <li><a href="https://www.facebook.com/Itechdevotion-984914054983108/" target="_blank"
+               class="fa fa-lg fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-lg fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-lg fa-google-plus"></a></li>
+        <li><a href="https://www.linkedin.com/company/itechdevotion/" target="_blank"
+               class="fa fa-lg fa-linkedin"></a>
+        </li>
+    </ul>
+</div>
+
+<script>
+
+    function openNav() {
+        document.getElementById("mySidenav").classList.add("open-nav");
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").classList.remove("open-nav");
+    }
+
+    function openContact() {
+        document.getElementById("contactUs").classList.add("open-pop");
+        document.getElementById("content").classList.add("content_none");
+    }
+
+    function closeContact() {
+        document.getElementById("contactUs").classList.remove("open-pop");
+        document.getElementById("content").classList.remove("content_none");
+    }
+
+    AOS.init();
+    window.onscroll = function () {
+        var nav = document.getElementById('header');
+        if (window.pageYOffset > 10) {
+            nav.classList.add("fixed-header");
+        } else {
+            nav.classList.remove("fixed-header");
+        }
+    }
+
+</script>
+
+</body>
+</html>

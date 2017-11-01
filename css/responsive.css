@@ -6,6 +6,17 @@
 }
 
 @media (max-width: 980px) {
+    .steps-one, .steps-two, .steps-three, .steps-four, .steps-five, .steps-six{
+        width: 100%!important;
+        margin: 10px!important;
+    }
+
+    .steps-name{
+        text-align: left!important;
+        margin: 5px 0 10px 33px!important;
+    }
+    .steps-img{ margin: 5px 0 10px 0px!important;
+        float: left;}
     .respo-tagline {
         font-size: 5vh
     }
