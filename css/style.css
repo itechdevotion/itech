@@ -16,6 +16,12 @@ a:hover {
     max-width: 1200px;
     margin: auto
 }
+.clear{
+    float: left;
+    width:100%;}
+p{
+    font-size: 18px; line-height: 1.5;
+}
 
 .humbergurger-icon {
     cursor: pointer;
@@ -229,7 +235,7 @@ header {
     line-height: 1.5
 }
 
-.our-process p {
+p {
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300
